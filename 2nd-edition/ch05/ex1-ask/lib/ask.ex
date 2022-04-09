@@ -17,7 +17,10 @@ defmodule Ask do
      3. Mars
     """)
 
-    IO.getn("Which? > ")
-
+    # 입력받는값들을 이런식으로도 사용이 가능
+    a = IO.getn("Which? > ")
+    IO.puts("a #{a}")
+    "a = #{a}"
+    # IO.getn -> 사용자의 입력을 받는것
   end
 end
