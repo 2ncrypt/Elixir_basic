@@ -15,6 +15,7 @@ defmodule Ask do
      """)
 
     IO.gets("Which? > ")
+#    파이프라인 부분
     |> String.first()
     |> char_to_planemo()
   end
