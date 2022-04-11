@@ -11,7 +11,7 @@ defmodule Ask do
     Which planemo are you on?
      1. Earth
      2. Earth's Moon
-     3. Mars
+     3. Mars test
      """)
 
     # version1
